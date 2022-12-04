@@ -26,10 +26,27 @@ header > h1{
     padding-top: 30px;
     font-variant: small-caps;
     font-family: var(--font2);
-    font-size: 7vw;
+    font-size: 7.5vw;
 }
 header > p{
-    padding-bottom: 50px;
+    padding-bottom: 20px;
+}
+nav{
+    text-align: left;
+    padding: 10px;
+    margin-left: 30px;
+}
+nav > a{
+    margin-right: 15px;
+    padding: 5px;
+}
+nav > a:hover{
+    border-radius: 15px;
+    transition: 0.3s;
+    background-color: rgba(0, 245, 249, 0.518);
+    color: darkgray;
+    text-shadow: 1px 2px 2px rgb(0, 0, 0);
+    text-decoration: none;
 }
 a{
     color: white;
@@ -41,13 +58,14 @@ a:hover{
 }
 
 
+
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--font3);
-    font-size: 2.5vw;
+    font-size: 20px;
 }
 section > p{
     padding-bottom: 2em;
@@ -74,6 +92,7 @@ section#img01{
 }
 section#img02{
     background-image: url("imagens/background002.jpg");
+    background-position: center center;
 }
 
 
